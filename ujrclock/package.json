@@ -1,7 +1,7 @@
 {
   "name": "@ualterjr/ujrclock",
-  "version": "1.0.0",
-  "description": "Just a Clock for testing",
+  "version": "1.0.5",
+  "description": "Just playing around with web components, a simple Clock",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "unpkg": "dist/ionic.js",
@@ -16,7 +16,6 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
-  "dependencies": {},
   "devDependencies": {
     "@stencil/core": "~0.15.2"
   },
@@ -24,10 +23,10 @@
   "author": "Ualter Azambuja Jr.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ualter/webcomponent-ujrclock.git"
+    "url": "git+https://github.com/ualter/webcomponents.git"
   },
   "bugs": {
-    "url": "https://github.com/ualter/webcomponent-ujrclock/issues"
+    "url": "https://github.com/ualter/webcomponents/ujrclock/issues"
   },
-  "homepage": "https://github.com/ualter/webcomponent-ujrclock#readme"
+  "homepage": "https://github.com/ualter/webcomponents/ujrclock#readme"
 }
