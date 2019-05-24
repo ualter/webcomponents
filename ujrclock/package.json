@@ -17,7 +17,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "devDependencies": {
-    "@stencil/core": "~0.15.2"
+    "@stencil/core": "0.18.1"
   },
   "license": "MIT",
   "author": "Ualter Azambuja Jr.",
@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/ualter/webcomponents/ujrclock/issues"
   },
-  "homepage": "https://github.com/ualter/webcomponents/ujrclock#readme"
+  "homepage": "https://github.com/ualter/webcomponents/ujrclock#readme",
+  "dependencies": {}
 }
