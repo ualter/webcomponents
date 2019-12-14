@@ -1,0 +1,12 @@
+<h2 class="title">List of ToDos</h2>
+<ul class="todos">
+    <li *ngFor="let todo of todos$ | async"
+      [class.selected]="todo.id === selectedId">
+      <a [routerLink]="['/todo-details', todo.id]">
+        <span class="badge">{{ todo.id | numberFixedLen:2 }}</span>{{todo.description}}
+      </a>
+    </li>
+</ul>
+<hr style="margin:20px -5px 20px -5px"/>
+<button (click)="newTodo()" class="buttonDefault" style="margin: 0px 0px 0px 15px;"> New ToDo </button>
+

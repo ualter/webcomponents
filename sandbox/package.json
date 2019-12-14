@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "commit": "commit",
+    "changelog-backwards": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s",
+    "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/prompt-cli": "^8.2.0",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0"
+  }
+}

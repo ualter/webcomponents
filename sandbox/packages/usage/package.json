@@ -1,0 +1,15 @@
+{
+  "name": "@ujr/usage",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ujr/ujr-button": "^1.0.8"
+  },
+  "author": "",
+  "license": "ISC",
+  "gitHead": "32cd8e9457be929fd07d52bff71ede6f0c3bcfae"
+}

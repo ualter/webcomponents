@@ -1,0 +1,23 @@
+<h2 class="title">Editing details...</h2>
+
+<div class="form-style-3" *ngIf="todo$ | async as todo">
+    <fieldset><legend>"{{ todo.description }}"</legend>
+      <label for="field0"><span>Id <span class="required">*</span></span>
+        <input type="text" [(ngModel)]="todo.id" readonly />
+      </label>
+      <label for="field1"><span>Description <span class="required">*</span></span>
+        <input #description type="text" [(ngModel)]="todo.description" placeholder="description" (ngModelChange)="validateForm($event, todo)"/>
+      </label>
+      <label for="field2"><span>Date <span class="required">*</span></span>
+        <input type="text" 
+               matInput [matDatepickerFilter]="myFilter"  
+               [(ngModel)]="todo.date" [matDatepicker]="picker" placeholder="Choose a todo date..." (dateChange)="onChange($event.value)" (ngModelChange)="validateForm($event, todo)"/>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </label>
+      <hr style="margin:20px -5px 20px -5px"/>
+      <button (click)="gotoTodos(todo)" class="buttonDefault">{{labelBackButton}}</button>
+      &nbsp;
+      <button (click)="saveTodo(todo)" *ngIf="insert" [disabled]="!formValid" class="buttonDefault">Save</button>
+    </fieldset>
+</div>

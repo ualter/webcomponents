@@ -1,0 +1,16 @@
+:host {
+   fill:black;
+   stroke:gray;
+   stroke-width: 0;
+   opacity: 1
+}
+
+.text-watch {
+    font: bold 18px Arial;
+    fill: var(--app-primary-color);
+}
+
+.text-copyright {
+    font: bold 12px Verdana;
+    fill: darkgray;
+}
