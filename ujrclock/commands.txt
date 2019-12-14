@@ -1,3 +1,7 @@
- npm publish --access public
 
- npm start
+# Start Dev
+node_modules//.bin/stencil build --serve
+
+npm publish --access public
+
+npm start
