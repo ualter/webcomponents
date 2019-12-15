@@ -25,10 +25,6 @@ export class UjrWatch {
     console.log(this.format);
   }
   
-  private getFormat(): string {
-    return this.format;
-  }
-
   render() {
     var now  = new Date();
     var time = now.toLocaleTimeString('en-US', { hour12: true });

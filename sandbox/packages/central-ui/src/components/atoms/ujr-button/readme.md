@@ -7,9 +7,9 @@
 
 ## Properties
 
-| Property | Attribute | Description      | Type     | Default     |
-| -------- | --------- | ---------------- | -------- | ----------- |
-| `label`  | `label`   | The button Label | `string` | `undefined` |
+| Property | Attribute | Description    | Type     | Default     |
+| -------- | --------- | -------------- | -------- | ----------- |
+| `label`  | `label`   | The first name | `string` | `undefined` |
 
 
 ----------------------------------------------

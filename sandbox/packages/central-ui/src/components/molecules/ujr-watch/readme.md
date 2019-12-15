@@ -7,9 +7,9 @@
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `format` | `format`  | Hour format     | `string` | `12 or 24`  |
+| Property | Attribute | Description    | Type     | Default     |
+| -------- | --------- | -------------- | -------- | ----------- |
+| `format` | `format`  | The first name | `string` | `undefined` |
 
 
 ----------------------------------------------
