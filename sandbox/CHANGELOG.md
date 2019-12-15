@@ -1,5 +1,11 @@
 ##  (2019-12-15)
 
+* feat: publish for prod central-ui ([4b17ea8](https://github.com/ualter/webcomponents/commit/4b17ea8))
+
+
+
+##  (2019-12-15)
+
 * docs: updated ([dff27a7](https://github.com/ualter/webcomponents/commit/dff27a7))
 * docs: updated ([81412e7](https://github.com/ualter/webcomponents/commit/81412e7))
 * Bump mixin-deep from 1.3.1 to 1.3.2 in /ujrclock ([d150a70](https://github.com/ualter/webcomponents/commit/d150a70))
