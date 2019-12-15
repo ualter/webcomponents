@@ -1,5 +1,12 @@
 ##  (2019-12-15)
 
+* feat: publish for prod central-ui ([6cde2d3](https://github.com/ualter/webcomponents/commit/6cde2d3))
+* feat: publish for prod central-ui ([4b17ea8](https://github.com/ualter/webcomponents/commit/4b17ea8))
+
+
+
+##  (2019-12-15)
+
 * feat: publish for prod central-ui ([4b17ea8](https://github.com/ualter/webcomponents/commit/4b17ea8))
 
 
