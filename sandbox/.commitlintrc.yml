@@ -17,6 +17,7 @@ rules:
       - test
       - revert
   type-case: [2, 'always', 'lower-case']    
+  
 help: |
   **Possible types**:
   `chore`:    Change build process, tooling or dependencies.
