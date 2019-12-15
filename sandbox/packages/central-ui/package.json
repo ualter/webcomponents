@@ -1,6 +1,6 @@
 {
   "name": "@ujr/central-ui",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "UJR Central User Interface Components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
