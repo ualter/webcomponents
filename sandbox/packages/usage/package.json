@@ -1,6 +1,6 @@
 {
   "name": "@ujr/usage",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "@commitlint/cli": "^8.2.0"
   },
   "dependencies": {
-    "@ujr/central-ui": "^1.0.15"
+    "@ujr/central-ui": "^1.0.16"
   }
 }
