@@ -33,7 +33,7 @@ export class UjrWatch {
     }    
 
     return (
-      <svg width="350" height="180">
+      <svg width="150" height="40">
         <g>
           <rect x="0" y="0" rx="8" ry="8" width="145" height="35" />
           <text x="11" y="23" class="text-watch">{ time }</text>

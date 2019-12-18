@@ -35,6 +35,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@commitlint/config-conventional": "^8.2.0"
+    "@commitlint/config-conventional": "^8.2.0",
+    "@stencil/sass": "^1.1.1"
   }
 }
