@@ -1,6 +1,6 @@
 {
   "name": "@ujr/central-ui",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "description": "UJR Central User Interface Components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -39,4 +39,3 @@
     "@stencil/sass": "^1.1.1"
   }
 }
-
