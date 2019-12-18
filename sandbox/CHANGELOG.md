@@ -1,3 +1,14 @@
+##  (2019-12-18)
+
+* . ([c978b21](https://github.com/ualter/webcomponents/commit/c978b21))
+* . ([50f219e](https://github.com/ualter/webcomponents/commit/50f219e))
+* doc: change main page of central-ui, sample view of components ([ed777c1](https://github.com/ualter/webcomponents/commit/ed777c1))
+* doc: change main page of central-ui, sample view of components ([e479b3f](https://github.com/ualter/webcomponents/commit/e479b3f))
+* doc: change main page of central-ui, sample view of components ([594451e](https://github.com/ualter/webcomponents/commit/594451e))
+* docs: chnage index.html ([bf5d569](https://github.com/ualter/webcomponents/commit/bf5d569))
+
+
+
 ##  (2019-12-15)
 
 * feat: publish for prod central-ui ([6cde2d3](https://github.com/ualter/webcomponents/commit/6cde2d3))
